@@ -171,6 +171,7 @@ public class Canvas {
             for(int x =0; x < frame_x; ++x) {
                 result += view[x][y];
             }
+            result += '\n';
         }
         return result;
     }
